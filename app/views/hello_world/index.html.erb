@@ -1,3 +1,10 @@
 <h1>Hello World</h1>
 <%= react_component("HelloWorld", props: @hello_world_props, prerender: true) %>
 
+<hr/>
+
+<h1>Rails Context and Generator Function Example</h1>
+<%= react_component("RailsContextExample",
+                    props: { aPropsKey: "aPropsValue"},
+                    prerender: true) %>
+
